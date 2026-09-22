@@ -20,44 +20,19 @@
               "icon": "lucide-file",
               "title": "Welcome"
             }
-          }
-        ]
-      },
-      {
-        "id": "b7f318ab705199a6",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "16022d2ebc9449c8",
+            "id": "e6a41e15f45e053f",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Welcome.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1730901ee14177f1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ae242f8c8167e2cc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +128,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -197,7 +170,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,7 +196,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "16022d2ebc9449c8",
+  "active": "e6a41e15f45e053f",
   "lastOpenFiles": [
     "Welcome.md"
   ]
