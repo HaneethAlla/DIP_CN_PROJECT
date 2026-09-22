@@ -13,22 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "DOCUMENTATION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "DOCUMENTATION"
             }
           },
           {
             "id": "e6a41e15f45e053f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DOCUMENTATION.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DOCUMENTATION"
             }
           }
         ],
@@ -110,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DOCUMENTATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DOCUMENTATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -170,6 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DOCUMENTATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -193,11 +200,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e6a41e15f45e053f",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Untitled",
+    "DOCUMENTATION.md"
   ]
 }
