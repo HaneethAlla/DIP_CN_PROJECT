@@ -39,14 +39,14 @@
             "id": "04fe8dffb929cca3",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Untitled 1.md",
-                "bFile": "Untitled 1.md",
-                "aRef": ""
+                "file": "DOCUMENTATION.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Untitled 1  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "DOCUMENTATION"
             }
           }
         ],
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ec2aeb3a07ba202f",
