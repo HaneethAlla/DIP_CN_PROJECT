@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCUMENTATION.md",
+                "file": "sync test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOCUMENTATION"
+              "title": "sync test"
             }
           }
         ]
@@ -201,8 +201,9 @@
   },
   "active": "19fa793de3de542c",
   "lastOpenFiles": [
-    "sync test.md",
     "DOCUMENTATION.md",
+    "DOCUMENTATION_FILES/Untitled.md",
+    "sync test.md",
     "DOCUMENTATION_FILES/DIP_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION_FILES",
     "Untitled 1.md",
