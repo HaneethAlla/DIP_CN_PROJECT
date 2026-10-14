@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCUMENTATION_FILES/Untitled.md",
+                "file": "DOCUMENTATION/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -199,13 +199,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "c5353943e4f2ff0a",
+  "active": "81ad30ed1d5fd51a",
   "lastOpenFiles": [
-    "DOCUMENTATION_FILES/Untitled.md",
+    "DOCUMENTATION/Untitled.md",
     "sync test.md",
     "DOCUMENTATION.md",
-    "DOCUMENTATION_FILES/DIP_CN_Project_Documentation_Revised.docx",
-    "DOCUMENTATION_FILES",
+    "DOCUMENTATION/DIP_CN_Project_Documentation_Revised.docx",
+    "DOCUMENTATION",
     "Untitled 1.md",
     "Untitled/Untitled.md",
     "Untitled 1",
