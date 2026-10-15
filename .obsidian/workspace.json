@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation_checklist/01_project_overview.md",
+                "file": "documentation_checklist/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_project_overview"
+              "title": "Untitled"
             }
           }
         ],
@@ -230,8 +230,10 @@
   },
   "active": "6bd2bd2b565c6ac2",
   "lastOpenFiles": [
+    "documentation_checklist/02_objectives.md.md",
+    "documentation_checklist/Untitled.md",
+    "documentation_checklist/01_project_overview.md.md",
     "documentation_checklist.md",
-    "documentation_checklist/01_project_overview.md",
     "Untitled",
     "documentation_checklist",
     "DOCUMENTATION/Untitled.md",
