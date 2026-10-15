@@ -39,15 +39,14 @@
             "id": "6bd2bd2b565c6ac2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "documentation_checklist/01_project_overview.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Index)"
+              "icon": "lucide-file",
+              "title": "01_project_overview"
             }
           }
         ],
@@ -229,11 +228,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81ad30ed1d5fd51a",
+  "active": "6bd2bd2b565c6ac2",
   "lastOpenFiles": [
+    "documentation_checklist.md",
+    "documentation_checklist/01_project_overview.md",
     "Untitled",
     "documentation_checklist",
-    "documentation_checklist.md",
     "DOCUMENTATION/Untitled.md",
     "DOCUMENTATION/DIP_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION",
