@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation_checklist/Untitled.md",
+                "file": "documentation_checklist/15_reference_distribution.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "15_reference_distribution.md"
             }
           }
         ],
@@ -228,10 +228,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bd2bd2b565c6ac2",
+  "active": "81ad30ed1d5fd51a",
   "lastOpenFiles": [
+    "documentation_checklist/14_dataset_counting_eda_code.md.md",
+    "documentation_checklist/15_reference_distribution.md.md",
+    "documentation_checklist/13_current_status_and_next_work.md.md",
+    "DOCUMENTATION.md",
+    "documentation_checklist/12_cn_integration.md.md",
+    "documentation_checklist/11_dip_workflow.md.md",
     "documentation_checklist/10_cleaning_guidelines.md.md",
-    "documentation_checklist/Untitled.md",
     "documentation_checklist/09_eda_resolution_channels_quality.md.md",
     "documentation_checklist/08_eda_visual_inspection.md.md",
     "documentation_checklist/07_eda_class_distribution.md.md",
@@ -248,7 +253,6 @@
     "DOCUMENTATION/DIP_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION",
     "sync test.md",
-    "DOCUMENTATION.md",
     "DOCUMENTATION_FILES/~$P_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION_FILES/DIP_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION_FILES",
