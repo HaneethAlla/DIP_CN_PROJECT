@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation_checklist/15_reference_distribution.md.md",
+                "file": "documentation_checklist/01_project_overview.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15_reference_distribution.md"
+              "title": "01_project_overview.md"
             }
           }
         ],
@@ -228,10 +228,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81ad30ed1d5fd51a",
+  "active": "6bd2bd2b565c6ac2",
   "lastOpenFiles": [
-    "documentation_checklist/14_dataset_counting_eda_code.md.md",
+    "documentation_checklist/17_pending_documentation_update.md.md",
+    "documentation_checklist/16_references.md.md",
     "documentation_checklist/15_reference_distribution.md.md",
+    "documentation_checklist/14_dataset_counting_eda_code.md.md",
     "documentation_checklist/13_current_status_and_next_work.md.md",
     "DOCUMENTATION.md",
     "documentation_checklist/12_cn_integration.md.md",
