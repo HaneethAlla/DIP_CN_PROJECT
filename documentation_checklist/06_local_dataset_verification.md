@@ -1,4 +1,4 @@
-# Local Dataset Verification
+
 
 The team's local analysis covered eight unique Parquet files across the analyzed official splits.
 
