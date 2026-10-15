@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation_checklist/13_current_status_and_next_work.md",
+                "file": "documentation_checklist/17_pending_documentation_update.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_current_status_and_next_work"
+              "title": "17_pending_documentation_update"
             }
           }
         ],
@@ -230,6 +230,10 @@
   },
   "active": "81ad30ed1d5fd51a",
   "lastOpenFiles": [
+    "documentation_checklist/16_references.md",
+    "documentation_checklist/15_reference_distribution.md",
+    "documentation_checklist/14_dataset_counting_eda_code.md",
+    "documentation_checklist/13_current_status_and_next_work.md",
     "documentation_checklist/12_cn_integration.md",
     "documentation_checklist/11_dip_workflow.md",
     "documentation_checklist/10_cleaning_guidelines.md",
@@ -243,10 +247,6 @@
     "documentation_checklist/02_objectives.md",
     "documentation_checklist/01_project_overview.md",
     "documentation_checklist/17_pending_documentation_update.md",
-    "documentation_checklist/14_dataset_counting_eda_code.md",
-    "documentation_checklist/13_current_status_and_next_work.md",
-    "documentation_checklist/16_references.md",
-    "documentation_checklist/15_reference_distribution.md",
     "DOCUMENTATION.md",
     "documentation_checklist.md",
     "Untitled",
