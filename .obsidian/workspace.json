@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation_checklist/17_pending_documentation_update.md",
+                "file": "documentation_checklist/16_references.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17_pending_documentation_update"
+              "title": "16_references"
             }
           }
         ],
@@ -228,8 +228,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81ad30ed1d5fd51a",
+  "active": "6bd2bd2b565c6ac2",
   "lastOpenFiles": [
+    "documentation_checklist/17_pending_documentation_update.md",
+    "DOCUMENTATION.md",
+    "sync test.md",
     "documentation_checklist/16_references.md",
     "documentation_checklist/15_reference_distribution.md",
     "documentation_checklist/14_dataset_counting_eda_code.md",
@@ -246,15 +249,12 @@
     "documentation_checklist/03_dataset_description.md",
     "documentation_checklist/02_objectives.md",
     "documentation_checklist/01_project_overview.md",
-    "documentation_checklist/17_pending_documentation_update.md",
-    "DOCUMENTATION.md",
     "documentation_checklist.md",
     "Untitled",
     "documentation_checklist",
     "DOCUMENTATION/Untitled.md",
     "DOCUMENTATION/DIP_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION",
-    "sync test.md",
     "DOCUMENTATION_FILES/~$P_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION_FILES/DIP_CN_Project_Documentation_Revised.docx",
     "DOCUMENTATION_FILES",
