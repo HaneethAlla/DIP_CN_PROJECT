@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4694b84bca626dc5",
+        "id": "8ccfb85f2a43b5f0",
         "type": "tabs",
         "children": [
           {
-            "id": "19fa793de3de542c",
+            "id": "a86859350f7a5572",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DOCUMENTATION.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DOCUMENTATION"
-            }
-          },
-          {
-            "id": "ccb9722d966d565c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DOCUMENTATION.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DOCUMENTATION"
-            }
-          },
-          {
-            "id": "6bd2bd2b565c6ac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "documentation_checklist/16_references.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "16_references"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ec2aeb3a07ba202f",
@@ -224,12 +192,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6bd2bd2b565c6ac2",
+  "active": "a86859350f7a5572",
   "lastOpenFiles": [
+    "file:/home/_a_h/Documents/Default Project/docs/meeting-cheatsheet.md",
     "documentation_checklist/17_pending_documentation_update.md",
     "DOCUMENTATION.md",
     "sync test.md",
