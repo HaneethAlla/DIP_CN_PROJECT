@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ccfb85f2a43b5f0",
+        "id": "486319d9360a9bf1",
         "type": "tabs",
         "children": [
           {
-            "id": "a86859350f7a5572",
+            "id": "f17e0c8a36f0d242",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ec2aeb3a07ba202f",
@@ -196,9 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a86859350f7a5572",
+  "active": "f17e0c8a36f0d242",
   "lastOpenFiles": [
     "file:/home/_a_h/Documents/Default Project/docs/meeting-cheatsheet.md",
+    "file:/home/_a_h/Documents/Default Project/docs/meeting-brief-detailed.md",
     "documentation_checklist/17_pending_documentation_update.md",
     "DOCUMENTATION.md",
     "sync test.md",
