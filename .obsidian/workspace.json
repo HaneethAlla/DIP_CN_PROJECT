@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "486319d9360a9bf1",
+        "id": "5dae1d24ae0a730d",
         "type": "tabs",
         "children": [
           {
-            "id": "f17e0c8a36f0d242",
+            "id": "bd37d78b63430fc2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -195,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f17e0c8a36f0d242",
+  "active": "bd37d78b63430fc2",
   "lastOpenFiles": [
     "file:/home/_a_h/Documents/Default Project/docs/meeting-cheatsheet.md",
     "file:/home/_a_h/Documents/Default Project/docs/meeting-brief-detailed.md",
