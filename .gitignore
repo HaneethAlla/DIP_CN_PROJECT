@@ -23,6 +23,7 @@ DIP/training/cellpose_training/*
 DIP/training/logs/*
 DIP/training/results/*.log
 DIP/cellpose/reports/*.log
+DIP/training/results/reproduced/
 *.pid
 *.pt
 *.pth
@@ -41,10 +42,11 @@ DIP/cellpose/_archives/
 DIP/cellpose/pilot/
 DIP/cellpose/pilot_complete_results/
 
-# Archive, local-only paper, and large bundles
+# Archive, final paper PDF, and large bundles
 DUMP/
 paper/*
 DIP/DIP_WBC_2026_submission.zip*
+!paper/PAPER.pdf
 WBC_App_Dev_Bundle_*
 
 # Local presentation work and large derived pairing table
