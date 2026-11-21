@@ -269,6 +269,15 @@ def show_top3(items):
         st.progress(float(score), text=f"{label} · {float(score):.2%}")
 
 
+def classify_on_fog(pipeline, path, image_name):
+    with st.spinner("Sending the image to Fog over localhost TCP..."):
+        with pipeline["fog_lock"]:
+            result = pipeline["fog_client"].classify(path, image_id=image_name)
+        if not result.get("integrity_ok", False):
+            raise RuntimeError("Image integrity verification failed.")
+    return result
+
+
 def run_analysis(pipeline, image_bytes, image_name, profile_name, suffix):
     started = perf_counter()
     with tempfile.TemporaryDirectory() as directory:
@@ -286,13 +295,8 @@ def run_analysis(pipeline, image_bytes, image_name, profile_name, suffix):
         fog_error = None
         if action == "offload":
             try:
-                with st.spinner("Sending the image to Fog over localhost TCP..."):
-                    with pipeline["fog_lock"]:
-                        fog = pipeline["fog_client"].classify(path, image_id=image_name)
-                    if not fog.get("integrity_ok", False):
-                        raise RuntimeError("Image integrity verification failed.")
+                fog = classify_on_fog(pipeline, path, image_name)
             except Exception as error:
-                fog = None
                 fog_error = str(error)
         elif action != "local":
             raise RuntimeError(f"Unknown routing decision: {action}")
@@ -310,7 +314,30 @@ def run_analysis(pipeline, image_bytes, image_name, profile_name, suffix):
     }
 
 
-def show_analysis(analysis, selected_profile, image_name):
+def show_fog_comparison(analysis, image_bytes, image_name, suffix):
+    if st.button("Run Fog prediction"):
+        analysis.pop("manual_fog", None)
+        try:
+            pipeline = load_pipeline()
+            with tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / f"image{suffix}"
+                path.write_bytes(image_bytes)
+                analysis["manual_fog"] = classify_on_fog(pipeline, str(path), image_name)
+        except Exception as error:
+            st.error(f"On-demand Fog prediction failed. {error}")
+
+    fog = analysis.get("manual_fog")
+    if fog is not None:
+        with st.container(border=True):
+            st.markdown("**On-demand Fog prediction**")
+            fog_class, confidence, exchange = st.columns(3)
+            fog_class.metric("Fog class", fog["predicted_class"])
+            confidence.metric("Fog confidence", f"{fog['confidence']:.2%}")
+            exchange.metric("TCP/Fog exchange", milliseconds(fog["total_ms"]))
+            show_top3(fog["top3"])
+
+
+def show_analysis(analysis, selected_profile, image_bytes, image_name, suffix):
     section("3. Image Quality Assessment")
     rows = [
         {"Quality feature": label, "Value": analysis["features"][key]}
@@ -367,6 +394,9 @@ def show_analysis(analysis, selected_profile, image_name):
             "Lower scores indicate more uncertainty."
         )
 
+    if local:
+        show_fog_comparison(analysis, image_bytes, image_name, suffix)
+
     with st.expander("Edge prediction used for routing"):
         st.caption("The learned policy uses the Edge INT8 prediction for every image.")
         edge_class, edge_score, edge_time = st.columns(3)
@@ -391,7 +421,7 @@ def show_analysis(analysis, selected_profile, image_name):
         )
 
     if local:
-        st.info("No Fog communication was required.")
+        st.info("The learned policy completed this analysis on Edge.")
     elif fog is not None:
         st.markdown("**TCP communication · Localhost (127.0.0.1)**")
         upload, inference, download = st.columns(3)
@@ -446,6 +476,7 @@ else:
         st.session_state.wbc_analysis = None
         st.error(f"Unable to read the uploaded image. {error}")
     else:
+        suffix = ".png" if image_format == "PNG" else ".jpg"
         preview = image.copy()
         preview.thumbnail((300, 240))
         with st.container(border=True):
@@ -461,7 +492,6 @@ else:
             except Exception as error:
                 st.error(f"Unable to initialize the Edge and Fog models or the TCP server. {error}")
             else:
-                suffix = ".png" if image_format == "PNG" else ".jpg"
                 try:
                     result = run_analysis(pipeline, image_bytes, image_name, profile_name, suffix)
                 except Exception as error:
@@ -470,7 +500,10 @@ else:
                     st.session_state.wbc_analysis = {"key": input_key, "result": result}
 
         if st.session_state.wbc_analysis is not None:
-            show_analysis(st.session_state.wbc_analysis["result"], selected_profile, image_name)
+            show_analysis(
+                st.session_state.wbc_analysis["result"], selected_profile,
+                image_bytes, image_name, suffix,
+            )
 
 st.divider()
 st.caption(
